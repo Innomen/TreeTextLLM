@@ -1,0 +1,108 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 5.3% 96.1%;
+    --foreground: 240 5.9% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 5.9% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 5.9% 10%;
+    --primary: 204 69% 62%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 35 92% 51%;
+    --accent-foreground: 35 100% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 204 69% 62%;
+  }
+
+  .dark {
+    --background: 220 13% 18%; /* Charcoal */
+    --foreground: 210 40% 98%;
+    --card: 220 13% 18%;
+    --card-foreground: 210 40% 98%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 217 91% 60%;
+  }
+
+  .warm {
+    --background: 25 55% 96%; /* Paper */
+    --foreground: 25 25% 20%;
+    --card: 30 60% 92%;
+    --card-foreground: 25 25% 20%;
+    --popover: 30 60% 92%;
+    --popover-foreground: 25 25% 20%;
+    --primary: 20 90% 45%; /* Fireplace Orange */
+    --primary-foreground: 30 100% 98%;
+    --secondary: 30 30% 88%;
+    --secondary-foreground: 25 25% 20%;
+    --muted: 30 30% 88%;
+    --muted-foreground: 25 20% 45%;
+    --accent: 30 60% 50%; /* Wood Brown */
+    --accent-foreground: 30 100% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 25% 80%;
+    --input: 30 25% 80%;
+    --ring: 20 90% 45%;
+  }
+
+  .retro {
+    --background: 0 0% 8%; /* Black */
+    --foreground: 120 100% 75%; /* Green */
+    --card: 0 0% 10%;
+    --card-foreground: 120 100% 75%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 120 100% 75%;
+    --primary: 120 100% 50%;
+    --primary-foreground: 0 0% 8%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 120 100% 75%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 120 70% 60%;
+    --accent: 120 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 120 100% 30%;
+    --input: 0 0% 15%;
+    --ring: 120 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-inter), sans-serif;
+  }
+  .retro {
+    font-family: var(--font-source-code-pro), monospace;
+  }
+}
+
