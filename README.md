@@ -2,6 +2,8 @@
 
 TreeTextLLM is a hierarchical document editor designed for structuring and writing complex, long-form content. It integrates with local Large Language Models (LLMs) to provide optional AI-powered assistance for content generation and transformation.
 
+<img width="643" height="400" alt="Screenshot_20250727_110555" src="https://github.com/user-attachments/assets/eaf53fb5-1463-4a94-9abe-1da59852fd0a" />
+
 This project was bootstrapped with [Firebase Studio](https://studio.firebase.google.com).
 
 ## Features
