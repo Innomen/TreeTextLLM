@@ -4,8 +4,6 @@ TreeTextLLM is a hierarchical document editor designed for structuring and writi
 
 <img width="643" height="400" alt="Screenshot_20250727_110555" src="https://github.com/user-attachments/assets/eaf53fb5-1463-4a94-9abe-1da59852fd0a" />
 
-This project was bootstrapped with [Firebase Studio](https://studio.firebase.google.com).
-
 ## Features
 
 *   **Three-Panel Interface:** A UI divided into three main views:
@@ -26,27 +24,7 @@ This project was bootstrapped with [Firebase Studio](https://studio.firebase.goo
 
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
-
-*   Node.js (v18 or later recommended)
-*   npm (comes with Node.js)
-*   (Optional) A local, OpenAI-compatible LLM server like [Llama.cpp](https://github.com/ggerganov/llama.cpp) or [LM Studio](https://lmstudio.ai/).
-
-### Installation
-
-1.  **Clone the repo**
-    ```sh
-    git clone https://github.com/innomen/TreeTextLLM.git
-    cd TreeTextLLM
-    ```
-2.  **Install NPM packages**
-    ```sh
-    npm install
-    ```
-3.  **Run the development server**
-    ```sh
-    npm run dev
-    ```
+Run the .py file...
 
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
